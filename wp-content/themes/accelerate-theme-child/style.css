@@ -43,3 +43,31 @@ Text Domain:  accelerate-theme-child
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+.featured-work {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.read-more-feature {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: smaller;
+  color: #000000;
+  text-transform: capitalize;
+  line-height: 0%;
+}
+.individual-featured-work {
+  list-style: none;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  float: inline-end;
+}
+div.case-study-images img {
+  width: 100%;
+  height: auto;
+}
+/* div.right {
+  padding-top: 20px;
+} */

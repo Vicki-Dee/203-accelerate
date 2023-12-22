@@ -222,7 +222,6 @@ h5 {
   text-transform: uppercase;
 }
 ul {
-  list-style: disc;
   margin: 1em 0 1em 1.125em;
 }
 blockquote {
@@ -709,12 +708,24 @@ a.button:link {
   margin-bottom: 4em;
 }
 .site-footer,
-.site-footer p,
-.site-footer a {
+.site-footer p {
   color: #909090;
   font-size: 0.9em;
   line-height: 1.5;
 }
+.site-footer a {
+  color: #ffffff;
+  background: black;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  float: right;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 5px;
+  margin: 5px;
+}
+
 /* End FOOTER STYLES */
 
 /* Media Queries */
@@ -793,7 +804,10 @@ a.button:link {
   .social-media-navigation {
     float: right;
     width: 20%;
+    list-style: none;
   }
+  /*[role="contentinfo"] {  
+  }*/
 }
 @media (min-width: 400px) {
   #navigation .pagination {
